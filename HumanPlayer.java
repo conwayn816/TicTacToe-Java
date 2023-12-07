@@ -51,7 +51,5 @@ public class HumanPlayer extends Player {
                         }
 
                 } while ((choice < 1 || choice > 9) || (!valid(choice)));
-                in.close();
         }
-
 }
