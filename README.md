@@ -1,5 +1,14 @@
 # TicTacToe-Java
-Simple Tic Tac Toe game created in Java.
-Run main from the TicTacToe.java
+Command Line TicTacToe game created with Java
 
-Using the -c command after the "java TicTacToe" command creates a computer player to play against.
+## Compilation
+'''bash
+javac TicTacToe.java
+'''
+
+## Execution
+'''bash
+java TicTacToe [-c [1|2]]
+'''
+
+-c command denotes a computer player (1|2 denotes computer plays as player one or player two)
