@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 //Human player derives from player
-
 public class HumanPlayer extends Player {
 
         public HumanPlayer(int turn) {
@@ -52,6 +51,7 @@ public class HumanPlayer extends Player {
                         }
 
                 } while ((choice < 1 || choice > 9) || (!valid(choice)));
+                in.close();
         }
 
 }
