@@ -163,31 +163,31 @@ public class ComputerPlayer extends Player {
                                 else {
                                         switch (i) {
                                                 case 1:
-                                                        board[0][0] = null;
+                                                        board[0][0] = "";
                                                         break;
                                                 case 2:
-                                                        board[0][1] = null;
+                                                        board[0][1] = "";
                                                         break;
                                                 case 3:
-                                                        board[0][2] = null;
+                                                        board[0][2] = "";
                                                         break;
                                                 case 4:
-                                                        board[1][0] = null;
+                                                        board[1][0] = "";
                                                         break;
                                                 case 5:
-                                                        board[1][1] = null;
+                                                        board[1][1] = "";
                                                         break;
                                                 case 6:
-                                                        board[1][2] = null;
+                                                        board[1][2] = "";
                                                         break;
                                                 case 7:
-                                                        board[2][0] = null;
+                                                        board[2][0] = "";
                                                         break;
                                                 case 8:
-                                                        board[2][1] = null;
+                                                        board[2][1] = "";
                                                         break;
                                                 case 9:
-                                                        board[2][2] = null;
+                                                        board[2][2] = "";
                                                         break;
                                         }
                                 }
